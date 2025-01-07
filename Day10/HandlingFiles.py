@@ -1,0 +1,17 @@
+# f=open (r"C:\Users\Prashant\Desktop\Automation\textfile.txt","w")
+# # f.write("first line \n")
+# # f.write("second line \n")
+# # f.write("third line \n")
+# # f.write("fourth line \n")
+# # f.write("fifth line \n")
+# f.write("sixth line \n")
+# f.close()
+
+# f=open (r"C:\Users\Prashant\Desktop\Automation\textfile.txt","r")
+# print(f.read())
+# f.close()
+
+f=open (r"C:\Users\Prashant\Desktop\Automation\textfile.txt","a")
+f.write("\nseventh line")
+f.write("\neighth line")
+f.close()
